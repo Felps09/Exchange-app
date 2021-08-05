@@ -12,6 +12,7 @@ import SelectCurrency from './components/SelectCurrency';
 
 
 function App() {
+  //Dark mode handler
   const [darkMode, setDarkMode] = React.useState(false);
 
   React.useEffect(() => {
