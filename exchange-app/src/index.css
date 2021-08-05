@@ -1,0 +1,75 @@
+body{
+    margin-left: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.dark{
+    background-color: darkgrey;
+}
+.dark h1{
+    color: #0069ff;
+}
+.dark h2{
+    color: #0069ff;
+}
+.dark link{
+    color: red;
+}
+
+.ThemeButton{
+    position: relative;
+    margin-left: 25%;
+    background-color: black;
+    color: white;
+    border-style: none;
+    height: 30px;
+}
+.ThemeButton:hover{
+    background-color: darkslategray;
+    color: black;
+    border: solid 5px blue;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+nav{
+    display: inline-block;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    float: left;
+}
+
+.dark a{
+    background-color: darkslategray;
+    color: white;
+}
+.dark a:hover{
+    color: aqua;
+}
+
+form{
+    font-size: 1.2em;
+    box-sizing: border-box;
+    margin-left: 100px;
+}
+form:focus{
+    border: 6px solid #555;
+    background-color: #0069ff;
+}
+
+pre{
+    display: flex;
+    height: 100px;
+}
